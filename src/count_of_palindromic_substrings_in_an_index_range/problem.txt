@@ -1,0 +1,31 @@
+Given a string str of small alphabetic characters other than this we will be given substring of this string in form of index tuples. We need to find out the count of the palindromic substrings in given substring range.
+Input:
+The first line of input contains an integer T denoting the number of test cases. Then T test cases follow. The first line of each test case contains an integer N denoting the size of the string.
+
+The second line of each test case contains the string and the third line contains integer q1 and q2 denoting the substring range.
+
+Output:
+Output the answer to each test case in a new line.
+Constraints:
+1<= N <=1000
+1<= q1, q2 <=1000
+
+Example:
+Input:
+2
+7
+xyaabax
+3 5
+7
+xyaabax
+2 3
+
+Output:
+4
+3
+
+Explanation:
+For Range1, substring is "aba" |
+Count of palindromic substring in "aba" is  four : "a", "b", "aba", "a"
+For Range2, substring is "aa"
+Count of palindromic substring in "aa" is three : "a", "a", "aa"
